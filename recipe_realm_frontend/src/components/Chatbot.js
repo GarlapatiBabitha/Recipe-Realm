@@ -47,7 +47,7 @@ const Chatbot = ({onHomeClick}) => {
       .then((data) => {
         setIngredientsList(data);
       })
-      .catch((error) => console.error("Error fetching ingredients:", error));
+      .catch((error) => console.error("Error in fetching ingredients:", error));
   }, []);
 
   useEffect(() => {
